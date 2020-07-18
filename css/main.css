@@ -1,0 +1,180 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Montserrat';
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    float: left;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER*****/
+
+header {
+  height: 600px;
+  width: 80%;
+  height: 100%;
+  float:left;
+  padding: 1%;
+}
+
+header h1 {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Montserrat', serif;
+  color: #bbc085;
+  text-align: left;
+
+}
+header h1 span {
+    color: #77a466;
+}
+
+nav {
+    float: right;
+    margin-top: -50px;
+
+}
+nav ul li{
+    display: inline-block;
+
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    color: #77a466;
+    font-weight: bold;
+
+  }
+
+img {
+
+  border: 2px solid #77a466;
+  float:left;
+}
+
+}
+
+/***** ABOUT *****/
+
+#about .full-width{
+
+
+}
+
+#about h2 {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    color: #77a466;
+    text-transform: uppercase;
+    padding: 0 30px 0 30px;
+
+}
+
+#about p {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: #000000;
+    line-height: 25px;
+    padding: 0 30px 0 30px;
+
+
+
+}
+
+/***** WORK *****/
+
+#work {
+  text-align: center;
+
+
+
+}
+
+#work .full-width {
+  border-top: solid 1px #eeeeee;
+  border-bottom: solid 1px #eeeeee;
+
+}
+
+#work h2{
+  font-family: 'Montserrat';
+  font-size: 14px;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+  padding: 0 30px 0 30px;
+
+
+
+
+}
+
+#work h3{
+  font-family: 'Montserrat';
+  font-weight: lighter;
+  font-size: 15px;
+  text-align: center;
+  line-height: 16px;
+  color: #77a466;
+  text-transform: uppercase;
+  padding: 0 30px 0 30px;
+
+
+
+
+
+}
+
+#work p {
+  border-left: solid 1px #eeeeee;
+  border-right: solid 1px #eeeeee;
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: capitalize;
+  font-family: 'Montserrat';
+  color: ##000000;
+  text-align: center;
+  padding: 0 30px 0 30px;
+
+
+
+
+}
+
+
+/***** FOOTER*****/
+
+#footer .full-width{
+
+}
+#footer p{
+
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  color: #000000;
+  text-align: center;
+
+  }
+
+#footer p span{
+    color: #77a466;
+    font-family: 'Galada';
+}
